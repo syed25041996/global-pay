@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+
+.title{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.grid-wrapper{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2rem;
+    place-items: center;
+    background-color:#B4CFB0;
+    border: 1px black solid;
+}
+
+.number{
+    font-size:2rem;
+}
+
+.m{
+    margin: 2rem;
+}
+
+button{
+    margin: 2rem auto;
+}
